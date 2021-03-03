@@ -85,6 +85,10 @@ FORMAT: 1A
 * 指定した会員の情報を更新する
 * userIdが必須。ない場合、BadRequestを返す。
 
++ Parameters
+
+    + userId: 300 (number, required) - ユーザID
+
 + Request(application/json)
 
     + Attributes
@@ -114,6 +118,10 @@ FORMAT: 1A
 #### 処理概要
 * 指定した会員の情報を削除する
 * userIdが必須。ない場合、BadRequestを返す。
+
++ Parameters
+
+    + userId: 300 (number, required) - ユーザID
 
 
 + Request(application/json)
